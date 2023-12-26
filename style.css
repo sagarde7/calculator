@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.navbar ul{
+    overflow: auto;
+    background: purple;
+}
+.navbar li{
+    float: left;
+    padding: 15px 20px;
+    list-style: none;
+    background: purple;
+    
+}
+.navbar li a{
+    text-decoration: none;
+    color: aqua;
+    background: purple;
+}
+.navbar li a:hover{
+    color: aquamarine;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.calc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+} 
+button{
+    margin: 34px 25px;
+    padding: 13px 35px;
+    width: 25px;
+    background-color: gold;
+    color: black;
+    box-shadow: 0 0 0.5rem white;
+    border-radius: 15px;
+    border: 1px solid white; 
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+#input{
+    margin: 10px 109px;
+    padding: 13px 14px;
+    width: 50%;
+    text-align: right;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-weight: bold;
+}
